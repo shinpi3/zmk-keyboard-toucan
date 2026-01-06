@@ -35,6 +35,16 @@
             bindings = <&mkp MB3>;
             key-positions = <3 16>;
         };
+
+        WinClose {
+            bindings = <&kp LC(W)>;
+            key-positions = <28 29>;
+        };
+
+        MB4 {
+            bindings = <&mkp MB4>;
+            key-positions = <14 15 16 17>;
+        };
     };
 
     keymap {
