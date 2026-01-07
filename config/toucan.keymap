@@ -21,27 +21,27 @@
     combos {
         compatible = "zmk,combos";
 
-        MB1 {
+        mb1 {
             bindings = <&mkp MB1>;
             key-positions = <15 16>;
         };
 
-        MB2 {
+        mb2 {
             bindings = <&mkp MB2>;
             key-positions = <16 14>;
         };
 
-        MB3 {
+        mb3 {
             bindings = <&mkp MB3>;
             key-positions = <3 16>;
         };
 
-        WinClose {
+        winclose {
             bindings = <&kp LC(W)>;
             key-positions = <28 29>;
         };
 
-        MB4 {
+        mb4 {
             bindings = <&mkp MB4>;
             key-positions = <14 15 16 17>;
         };
