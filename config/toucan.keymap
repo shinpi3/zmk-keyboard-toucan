@@ -67,7 +67,7 @@
         NUM {
             display-name = "SYM";
             bindings = <
-&kp TAB  &kp EXCL  &kp AT  &kp HASH  &kp UP  &kp PRCNT  &kp CARET  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp RPAR  &kp BSPC  &kp LCTRL  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp MINUS  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS  &kp GRAVE  &kp LSHFT  &trans  &trans  &trans  &trans  &trans  &kp UNDER  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD  &kp TILDE  &kp LGUI  &trans  &kp SPACE  &kp DELETE  &kp RET  &kp KP_NUMBER_0
+&kp TAB  &kp EXCL  &kp AT  &kp HASH  &kp UP  &kp PRCNT  &kp CARET  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp RPAR  &kp BSPC  &kp LCTRL  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT  &kp MINUS  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS  &kp GRAVE  &kp LSHFT  &trans  &trans  &trans  &trans  &trans  &kp SLASH  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp PERIOD  &kp TILDE  &kp LGUI  &trans  &kp SPACE  &kp DELETE  &kp RET  &kp KP_NUMBER_0
             >;
         };
 
