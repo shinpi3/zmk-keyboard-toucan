@@ -13,13 +13,13 @@
 #define EXTRA7 7
 
 / {
-    // Conditional Layersの設定を無効化（空のブロックにするか、削除することで同時押しによるレイヤー切り替えを停止します）
+    // Conditional Layersの設定を無効化
     conditional_layers {
         compatible = "zmk,conditional-layers";
     };
 
     combos {
-        compatible = "zmk, combos";
+        compatible = "zmk,combos";
 
         mb1 {
             bindings = <&mkp MB1>;
