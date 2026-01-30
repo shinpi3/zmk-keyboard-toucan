@@ -4,7 +4,7 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define BASE 0
-#define N    1
+#define NAV 1
 #define SYM 2
 #define ADJ 3
 #define EXTRA4 4
@@ -13,7 +13,10 @@
 #define EXTRA7 7
 
 / {
-    conditional_layers { compatible = "zmk, conditional-layers"; };
+    // Conditional Layersの設定を無効化（空のブロックにするか、削除することで同時押しによるレイヤー切り替えを停止します）
+    conditional_layers {
+        compatible = "zmk,conditional-layers";
+    };
 
     combos {
         compatible = "zmk, combos";
